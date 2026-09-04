@@ -809,7 +809,7 @@
       <!-- Standard HTML5 audio element for the birthday song.
            Replace the placeholder src below with a real, publicly-accessible
            audio file URL (mp3, ogg, etc.) — see the console for load errors. -->
-      <audio id="birthday-audio" src="YOUR_AUDIO_LINK_HERE.mp4" loop preload="none"></audio>
+      <audio id="birthday-audio" src="happy-birthday.mp4" loop preload="none"></audio>
 
       <!-- Appears once the birthday tune has started, so it never feels like a stray media player -->
       <div id="audio-controls">
@@ -1075,7 +1075,7 @@
       audioEl.addEventListener('error', () => {
         console.error(
           'Birthday song: the audio file failed to load. Replace the placeholder ' +
-          '"YOUR_AUDIO_LINK_HERE.mp4" in the <audio id="birthday-audio"> tag with a real, ' +
+          '"happy-birthday.mp4" in the <audio id="birthday-audio"> tag with a real, ' +
           'publicly-accessible audio URL.'
         );
       });
